@@ -24,14 +24,50 @@ $glitch-interval: $glitch-duration / $glitch-frequency;
   animation: rgb-shift-#{$name} $animation-duration steps(1, jump-end) infinite alternate
     both;
 }
+@mixin glitch($name) {
+  @keyframes glitch-#{$name} {
+    @for $i from 0 to $glitch-frequency {
+      $left: 0%;
+      $right: 100%;
+      $top: rand(0, 90) * 1%; // 切り取る位置 (縦軸0%〜90%内でランダムに動かす)
+      $bottom: $top + rand(1, 10) * 1%; // 切り取るサイズ (画像縦幅1%〜10%)
+
+      #{$i * $glitch-interval} {
+        clip-path: polygon(
+          $left $top,
+          $right $top,
+          $right $bottom,
+          $left $bottom
+        );
+        transform: translate(
+          #{rand(-8, 8) * 1%},
+          // 左右にどれぐらい動くか (横幅の±8%)
+          #{rand(-0.5, 0.5) *
+            1%}
+            // 上下にどれぐらい動くか (縦幅の±0.5%)
+        );
+      }
+    }
+
+    #{$glitch-duration},
+    100% {
+      clip-path: none;
+      transform: none;
+    }
+  }
+
+  animation: glitch-#{$name} $animation-duration linear infinite alternate both;
+}
 
 #glitch2 {
-  background-image: url(../images/bg2.jpg);
+  background-image: url(../images/bg.jpg);
   padding-top: calc(1281 / 1920 * 100%);
   width: 100%;
   background-size: 0;
   overflow: hidden;
   position: relative;
+  &::before,
+  &::after,
   .channel {
     background: inherit;
     background-size: cover;
@@ -40,6 +76,18 @@ $glitch-interval: $glitch-duration / $glitch-frequency;
     bottom: 0;
     left: 0;
     right: 0;
+  }
+  &::before {
+    content: "";
+    @include glitch(before);
+    clip-path: polygon(0 20%, 100% 20%, 100% 30%, 0 30%);
+    transform: translate(5%, 0.5%);
+  }
+  &::after {
+    content: "";
+    @include glitch(after);
+    clip-path: polygon(0 60%, 100% 60%, 100% 65%, 0 65%);
+    transform: translate(-5%, -0.5%);
   }
 }
 
