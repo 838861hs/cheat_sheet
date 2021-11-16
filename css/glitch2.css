@@ -1,0 +1,117 @@
+#glitch2 {
+  background-image: url(../images/bg2.jpg);
+  padding-top: calc(1281 / 1920 * 100%);
+  width: 100%;
+  background-size: 0;
+  overflow: hidden;
+  position: relative;
+}
+#glitch2 .channel {
+  background: inherit;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.channel {
+  mix-blend-mode: screen;
+}
+.channel::before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  mix-blend-mode: multiply;
+}
+
+.r {
+  -webkit-animation: rgb-shift-r 3s steps(1, jump-end) infinite alternate both;
+          animation: rgb-shift-r 3s steps(1, jump-end) infinite alternate both;
+}
+@-webkit-keyframes rgb-shift-r {
+  0% {
+    transform: translate(-1.5150283062%, 0.1825809819%);
+  }
+  2% {
+    transform: translate(0.8572830778%, -0.2862611791%);
+  }
+  4% {
+    transform: translate(0.4368296184%, -0.028862496%);
+  }
+  6% {
+    transform: translate(-1.3750549469%, -0.3144390057%);
+  }
+  8% {
+    transform: translate(0.3186677026%, -0.3509626846%);
+  }
+  10% {
+    transform: translate(-1.588838741%, -0.4307993437%);
+  }
+  12% {
+    transform: translate(1.6147698997%, 0.1859885871%);
+  }
+  14% {
+    transform: translate(-1.5651033762%, -0.495037829%);
+  }
+  16% {
+    transform: translate(0.1481969728%, -0.1555166468%);
+  }
+  18% {
+    transform: translate(1.8540635852%, -0.1683502223%);
+  }
+  20%, 100% {
+    transform: none;
+  }
+}
+@keyframes rgb-shift-r {
+  0% {
+    transform: translate(-1.5150283062%, 0.1825809819%);
+  }
+  2% {
+    transform: translate(0.8572830778%, -0.2862611791%);
+  }
+  4% {
+    transform: translate(0.4368296184%, -0.028862496%);
+  }
+  6% {
+    transform: translate(-1.3750549469%, -0.3144390057%);
+  }
+  8% {
+    transform: translate(0.3186677026%, -0.3509626846%);
+  }
+  10% {
+    transform: translate(-1.588838741%, -0.4307993437%);
+  }
+  12% {
+    transform: translate(1.6147698997%, 0.1859885871%);
+  }
+  14% {
+    transform: translate(-1.5651033762%, -0.495037829%);
+  }
+  16% {
+    transform: translate(0.1481969728%, -0.1555166468%);
+  }
+  18% {
+    transform: translate(1.8540635852%, -0.1683502223%);
+  }
+  20%, 100% {
+    transform: none;
+  }
+}
+.r::before {
+  background: #f00;
+}
+
+.g::before {
+  background: #0f0;
+}
+
+.b::before {
+  background: #00f;
+}/*# sourceMappingURL=glitch2.css.map */
