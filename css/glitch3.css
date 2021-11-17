@@ -272,7 +272,7 @@
 
 .glitch3 {
   background-color: #000;
-  height: 80vh;
+  height: 50vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -282,9 +282,8 @@
   position: relative;
   color: #fff;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 80px;
   text-transform: uppercase;
-  transform: scale(2);
   padding: 0 20px;
 }
 @media screen and (max-width: 768px) {
