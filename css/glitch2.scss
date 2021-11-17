@@ -59,6 +59,16 @@ $glitch-interval: $glitch-duration / $glitch-frequency;
   animation: glitch-#{$name} $animation-duration linear infinite alternate both;
 }
 
+.description {
+  padding: 20px;
+}
+.description h1 span {
+  font-size: 18px;
+}
+.description p {
+  margin-top: 10px;
+}
+
 #glitch2 {
   background-image: url(../images/bg2.jpg);
   padding-top: calc(1281 / 1920 * 100%);
