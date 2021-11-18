@@ -19,3 +19,12 @@ span {
   list-style: none;
   line-height: 1;
 }
+.description {
+  padding: 20px;
+}
+.description h1 span {
+  font-size: 18px;
+}
+.description p {
+  margin-top: 10px;
+}
