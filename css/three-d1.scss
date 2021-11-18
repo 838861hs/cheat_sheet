@@ -3,7 +3,7 @@
     background-position: 0;
   }
   100% {
-    background-position: 100px;
+    background-position: 150px;
   }
 }
 section {
@@ -20,7 +20,7 @@ section {
   width: 100%;
   height: 50vh;
   background: url(../images/check.jpg);
-  background-size: 100px 100px;
+  background-size: 150px 150px;
   animation: animete 2s linear infinite;
 }
 
