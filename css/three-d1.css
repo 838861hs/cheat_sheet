@@ -1,0 +1,61 @@
+@-webkit-keyframes animete {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 150px;
+  }
+}
+@keyframes animete {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 150px;
+  }
+}
+section {
+  overflow: hidden;
+}
+
+.pattern {
+  position: relative;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  max-height: 1400px;
+}
+
+.pattern .face {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  background: url(../images/check.jpg);
+  background-size: 150px 150px;
+  -webkit-animation: animete 2s linear infinite;
+          animation: animete 2s linear infinite;
+}
+
+.pattern .face.face2 {
+  height: 100vh;
+  transform-origin: top;
+  transform: rotateX(70deg);
+}
+
+.pattern .face1::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 125px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), transparent);
+}
+
+.pattern .face2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 125px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), transparent);
+}/*# sourceMappingURL=three-d1.css.map */

@@ -258,18 +258,6 @@
     clip: rect(83px, auto, 40px, 30px);
   }
 }
-.description {
-  padding: 20px;
-}
-
-.description h1 span {
-  font-size: 18px;
-}
-
-.description p {
-  margin-top: 10px;
-}
-
 .glitch3 {
   background-color: #000;
   height: 50vh;
