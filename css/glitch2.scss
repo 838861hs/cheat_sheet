@@ -39,20 +39,20 @@ $glitch-interval: $glitch-duration / $glitch-frequency;
           $right $bottom,
           $left $bottom
         );
-        transform: translate(
-          #{rand(-8, 8) * 1%},
-          // 左右にどれぐらい動くか (横幅の±8%)
-          #{rand(-0.5, 0.5) *
-            1%}
-            // 上下にどれぐらい動くか (縦幅の±0.5%)
-        );
+        // transform: translate(
+        //   #{rand(-8, 8) * 1%},
+        //   // 左右にどれぐらい動くか (横幅の±8%)
+        //   #{rand(-0.5, 0.5) *
+        //     1%}
+        //     // 上下にどれぐらい動くか (縦幅の±0.5%)
+        // );
       }
     }
 
     #{$glitch-duration},
     100% {
       clip-path: none;
-      transform: none;
+      transform: translate(0, 0);
     }
   }
 
@@ -80,13 +80,13 @@ $glitch-interval: $glitch-duration / $glitch-frequency;
     content: "";
     @include glitch(before);
     clip-path: polygon(0 20%, 100% 20%, 100% 30%, 0 30%);
-    transform: translate(5%, 0.5%);
+    // transform: translate(5%, 0.5%);
   }
   &::after {
     content: "";
     @include glitch(after);
     clip-path: polygon(0 60%, 100% 60%, 100% 65%, 0 65%);
-    transform: translate(-5%, -0.5%);
+    // transform: translate(-5%, -0.5%);
   }
 }
 
