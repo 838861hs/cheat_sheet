@@ -2,7 +2,7 @@
 @function rand($min, $max) {
   @return random() * ($max - $min) + $min;
 }
-$animation-duration: 3s; // 何秒おきにアニメーションをループするか
+$animation-duration: 2s; // 何秒おきにアニメーションをループするか
 $glitch-duration: 20%; // グリッチ (RGB ずらし) 自体の長さ、上記秒数に対するパーセンテージ
 $glitch-frequency: 10; // 動きの頻度
 $glitch-interval: $glitch-duration / $glitch-frequency;
