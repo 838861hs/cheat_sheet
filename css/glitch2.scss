@@ -2,7 +2,7 @@
 @function rand($min, $max) {
   @return random() * ($max - $min) + $min;
 }
-$animation-duration: 3s; // 何秒おきにアニメーションをループするか
+$animation-duration: 2s; // 何秒おきにアニメーションをループするか
 $glitch-duration: 20%; // グリッチ (RGB ずらし) 自体の長さ、上記秒数に対するパーセンテージ
 $glitch-frequency: 10; // 動きの頻度
 $glitch-interval: $glitch-duration / $glitch-frequency;
@@ -39,20 +39,20 @@ $glitch-interval: $glitch-duration / $glitch-frequency;
           $right $bottom,
           $left $bottom
         );
-        transform: translate(
-          #{rand(-8, 8) * 1%},
-          // 左右にどれぐらい動くか (横幅の±8%)
-          #{rand(-0.5, 0.5) *
-            1%}
-            // 上下にどれぐらい動くか (縦幅の±0.5%)
-        );
+        // transform: translate(
+        //   #{rand(-8, 8) * 1%},
+        //   // 左右にどれぐらい動くか (横幅の±8%)
+        //   #{rand(-0.5, 0.5) *
+        //     1%}
+        //     // 上下にどれぐらい動くか (縦幅の±0.5%)
+        // );
       }
     }
 
     #{$glitch-duration},
     100% {
       clip-path: none;
-      transform: none;
+      transform: translate(0, 0);
     }
   }
 
@@ -63,7 +63,6 @@ $glitch-interval: $glitch-duration / $glitch-frequency;
   background-image: url(../images/bg2.jpg);
   padding-top: calc(1281 / 1920 * 100%);
   width: 100%;
-  background-size: 0;
   overflow: hidden;
   position: relative;
   &::before,
@@ -81,13 +80,13 @@ $glitch-interval: $glitch-duration / $glitch-frequency;
     content: "";
     @include glitch(before);
     clip-path: polygon(0 20%, 100% 20%, 100% 30%, 0 30%);
-    transform: translate(5%, 0.5%);
+    // transform: translate(5%, 0.5%);
   }
   &::after {
     content: "";
     @include glitch(after);
     clip-path: polygon(0 60%, 100% 60%, 100% 65%, 0 65%);
-    transform: translate(-5%, -0.5%);
+    // transform: translate(-5%, -0.5%);
   }
 }
 
