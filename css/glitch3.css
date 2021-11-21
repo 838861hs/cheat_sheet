@@ -1,263 +1,3 @@
-@-webkit-keyframes glitch-1 {
-  0% {
-    clip: rect(132px, auto, 101px, 30px);
-  }
-  5% {
-    clip: rect(17px, auto, 94px, 30px);
-  }
-  10% {
-    clip: rect(40px, auto, 66px, 30px);
-  }
-  15% {
-    clip: rect(87px, auto, 82px, 30px);
-  }
-  20% {
-    clip: rect(137px, auto, 61px, 30px);
-  }
-  25% {
-    clip: rect(34px, auto, 14px, 30px);
-  }
-  30% {
-    clip: rect(133px, auto, 74px, 30px);
-  }
-  35% {
-    clip: rect(76px, auto, 107px, 30px);
-  }
-  40% {
-    clip: rect(59px, auto, 130px, 30px);
-  }
-  45% {
-    clip: rect(29px, auto, 84px, 30px);
-  }
-  50% {
-    clip: rect(22px, auto, 67px, 30px);
-  }
-  55% {
-    clip: rect(67px, auto, 62px, 30px);
-  }
-  60% {
-    clip: rect(10px, auto, 105px, 30px);
-  }
-  65% {
-    clip: rect(78px, auto, 115px, 30px);
-  }
-  70% {
-    clip: rect(105px, auto, 13px, 30px);
-  }
-  75% {
-    clip: rect(15px, auto, 75px, 30px);
-  }
-  80% {
-    clip: rect(66px, auto, 39px, 30px);
-  }
-  85% {
-    clip: rect(133px, auto, 73px, 30px);
-  }
-  90% {
-    clip: rect(36px, auto, 128px, 30px);
-  }
-  95% {
-    clip: rect(68px, auto, 103px, 30px);
-  }
-  100% {
-    clip: rect(14px, auto, 100px, 30px);
-  }
-}
-@keyframes glitch-1 {
-  0% {
-    clip: rect(132px, auto, 101px, 30px);
-  }
-  5% {
-    clip: rect(17px, auto, 94px, 30px);
-  }
-  10% {
-    clip: rect(40px, auto, 66px, 30px);
-  }
-  15% {
-    clip: rect(87px, auto, 82px, 30px);
-  }
-  20% {
-    clip: rect(137px, auto, 61px, 30px);
-  }
-  25% {
-    clip: rect(34px, auto, 14px, 30px);
-  }
-  30% {
-    clip: rect(133px, auto, 74px, 30px);
-  }
-  35% {
-    clip: rect(76px, auto, 107px, 30px);
-  }
-  40% {
-    clip: rect(59px, auto, 130px, 30px);
-  }
-  45% {
-    clip: rect(29px, auto, 84px, 30px);
-  }
-  50% {
-    clip: rect(22px, auto, 67px, 30px);
-  }
-  55% {
-    clip: rect(67px, auto, 62px, 30px);
-  }
-  60% {
-    clip: rect(10px, auto, 105px, 30px);
-  }
-  65% {
-    clip: rect(78px, auto, 115px, 30px);
-  }
-  70% {
-    clip: rect(105px, auto, 13px, 30px);
-  }
-  75% {
-    clip: rect(15px, auto, 75px, 30px);
-  }
-  80% {
-    clip: rect(66px, auto, 39px, 30px);
-  }
-  85% {
-    clip: rect(133px, auto, 73px, 30px);
-  }
-  90% {
-    clip: rect(36px, auto, 128px, 30px);
-  }
-  95% {
-    clip: rect(68px, auto, 103px, 30px);
-  }
-  100% {
-    clip: rect(14px, auto, 100px, 30px);
-  }
-}
-@-webkit-keyframes glitch-2 {
-  0% {
-    clip: rect(129px, auto, 36px, 30px);
-  }
-  5% {
-    clip: rect(36px, auto, 4px, 30px);
-  }
-  10% {
-    clip: rect(85px, auto, 66px, 30px);
-  }
-  15% {
-    clip: rect(91px, auto, 91px, 30px);
-  }
-  20% {
-    clip: rect(148px, auto, 138px, 30px);
-  }
-  25% {
-    clip: rect(38px, auto, 122px, 30px);
-  }
-  30% {
-    clip: rect(69px, auto, 54px, 30px);
-  }
-  35% {
-    clip: rect(98px, auto, 71px, 30px);
-  }
-  40% {
-    clip: rect(146px, auto, 34px, 30px);
-  }
-  45% {
-    clip: rect(134px, auto, 43px, 30px);
-  }
-  50% {
-    clip: rect(102px, auto, 80px, 30px);
-  }
-  55% {
-    clip: rect(119px, auto, 44px, 30px);
-  }
-  60% {
-    clip: rect(106px, auto, 99px, 30px);
-  }
-  65% {
-    clip: rect(141px, auto, 74px, 30px);
-  }
-  70% {
-    clip: rect(20px, auto, 78px, 30px);
-  }
-  75% {
-    clip: rect(133px, auto, 79px, 30px);
-  }
-  80% {
-    clip: rect(78px, auto, 52px, 30px);
-  }
-  85% {
-    clip: rect(35px, auto, 39px, 30px);
-  }
-  90% {
-    clip: rect(67px, auto, 70px, 30px);
-  }
-  95% {
-    clip: rect(71px, auto, 103px, 30px);
-  }
-  100% {
-    clip: rect(83px, auto, 40px, 30px);
-  }
-}
-@keyframes glitch-2 {
-  0% {
-    clip: rect(129px, auto, 36px, 30px);
-  }
-  5% {
-    clip: rect(36px, auto, 4px, 30px);
-  }
-  10% {
-    clip: rect(85px, auto, 66px, 30px);
-  }
-  15% {
-    clip: rect(91px, auto, 91px, 30px);
-  }
-  20% {
-    clip: rect(148px, auto, 138px, 30px);
-  }
-  25% {
-    clip: rect(38px, auto, 122px, 30px);
-  }
-  30% {
-    clip: rect(69px, auto, 54px, 30px);
-  }
-  35% {
-    clip: rect(98px, auto, 71px, 30px);
-  }
-  40% {
-    clip: rect(146px, auto, 34px, 30px);
-  }
-  45% {
-    clip: rect(134px, auto, 43px, 30px);
-  }
-  50% {
-    clip: rect(102px, auto, 80px, 30px);
-  }
-  55% {
-    clip: rect(119px, auto, 44px, 30px);
-  }
-  60% {
-    clip: rect(106px, auto, 99px, 30px);
-  }
-  65% {
-    clip: rect(141px, auto, 74px, 30px);
-  }
-  70% {
-    clip: rect(20px, auto, 78px, 30px);
-  }
-  75% {
-    clip: rect(133px, auto, 79px, 30px);
-  }
-  80% {
-    clip: rect(78px, auto, 52px, 30px);
-  }
-  85% {
-    clip: rect(35px, auto, 39px, 30px);
-  }
-  90% {
-    clip: rect(67px, auto, 70px, 30px);
-  }
-  95% {
-    clip: rect(71px, auto, 103px, 30px);
-  }
-  100% {
-    clip: rect(83px, auto, 40px, 30px);
-  }
-}
 .glitch3 {
   background-color: #000;
   height: 50vh;
@@ -293,11 +33,661 @@
 }
 .glitch3 .glitch-text::before {
   left: 3px;
-  animation: glitch-1 2s linear infinite reverse;
   text-shadow: 2px 0 red;
+  -webkit-animation: test-anime2 3s linear infinite;
+          animation: test-anime2 3s linear infinite;
+}
+@-webkit-keyframes test-anime2 {
+  0% {
+    -webkit-clip-path: inset(11.1236801024% 2.7872793333% 8.4902540777%);
+            clip-path: inset(11.1236801024% 2.7872793333% 8.4902540777%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  1.5% {
+    -webkit-clip-path: inset(39.5425441282% 9.8363991102% 18.5571174111%);
+            clip-path: inset(39.5425441282% 9.8363991102% 18.5571174111%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  3% {
+    -webkit-clip-path: inset(20.7646284002% 6.9974856078% 12.0488745786%);
+            clip-path: inset(20.7646284002% 6.9974856078% 12.0488745786%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  4.5% {
+    -webkit-clip-path: inset(27.2477596104% 2.2056593499% 9.9466990682%);
+            clip-path: inset(27.2477596104% 2.2056593499% 9.9466990682%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  6% {
+    -webkit-clip-path: inset(36.1657788339% 3.9238795297% 11.3188961634%);
+            clip-path: inset(36.1657788339% 3.9238795297% 11.3188961634%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  7.5% {
+    -webkit-clip-path: inset(16.7593246873% 5.0573593803% 3.2447325167%);
+            clip-path: inset(16.7593246873% 5.0573593803% 3.2447325167%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  9% {
+    -webkit-clip-path: inset(7.018811512% 4.6960455162% 7.1354295568%);
+            clip-path: inset(7.018811512% 4.6960455162% 7.1354295568%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  10.5% {
+    -webkit-clip-path: inset(12.0978546821% 5.7185810483% 10.7425872181%);
+            clip-path: inset(12.0978546821% 5.7185810483% 10.7425872181%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  12% {
+    -webkit-clip-path: inset(10.0158891083% 5.9756288367% 10.7700469083%);
+            clip-path: inset(10.0158891083% 5.9756288367% 10.7700469083%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  13.5% {
+    -webkit-clip-path: inset(23.0694600605% 9.8635267326% 17.4203520154%);
+            clip-path: inset(23.0694600605% 9.8635267326% 17.4203520154%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  15% {
+    -webkit-clip-path: inset(24.1371266697% 3.6267291072% 3.8976643919%);
+            clip-path: inset(24.1371266697% 3.6267291072% 3.8976643919%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  16.5% {
+    -webkit-clip-path: inset(5.6695044679% 4.0137604712% 2.327251934%);
+            clip-path: inset(5.6695044679% 4.0137604712% 2.327251934%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  18% {
+    -webkit-clip-path: inset(17.4620242291% 2.1261405178% 6.2056147419%);
+            clip-path: inset(17.4620242291% 2.1261405178% 6.2056147419%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  19.5% {
+    -webkit-clip-path: inset(5.3154987881% 6.2990998987% 13.2735013195%);
+            clip-path: inset(5.3154987881% 6.2990998987% 13.2735013195%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  21% {
+    -webkit-clip-path: inset(19.2355469448% 7.0893088943% 12.5102719144%);
+            clip-path: inset(19.2355469448% 7.0893088943% 12.5102719144%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  22.5% {
+    -webkit-clip-path: inset(30.6040706922% 2.3376042517% 8.2877001751%);
+            clip-path: inset(30.6040706922% 2.3376042517% 8.2877001751%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  24% {
+    -webkit-clip-path: inset(32.0220680092% 1.1054044543% 17.2670526558%);
+            clip-path: inset(32.0220680092% 1.1054044543% 17.2670526558%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  25.5% {
+    -webkit-clip-path: inset(33.4591495924% 4.7539228109% 2.7534581748%);
+            clip-path: inset(33.4591495924% 4.7539228109% 2.7534581748%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  27% {
+    -webkit-clip-path: inset(7.5571196278% 2.1677727043% 1.5161661251%);
+            clip-path: inset(7.5571196278% 2.1677727043% 1.5161661251%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  28.5% {
+    -webkit-clip-path: inset(23.1121862964% 6.9851217758% 18.3560015755%);
+            clip-path: inset(23.1121862964% 6.9851217758% 18.3560015755%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+}
+@keyframes test-anime2 {
+  0% {
+    -webkit-clip-path: inset(11.1236801024% 2.7872793333% 8.4902540777%);
+            clip-path: inset(11.1236801024% 2.7872793333% 8.4902540777%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  1.5% {
+    -webkit-clip-path: inset(39.5425441282% 9.8363991102% 18.5571174111%);
+            clip-path: inset(39.5425441282% 9.8363991102% 18.5571174111%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  3% {
+    -webkit-clip-path: inset(20.7646284002% 6.9974856078% 12.0488745786%);
+            clip-path: inset(20.7646284002% 6.9974856078% 12.0488745786%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  4.5% {
+    -webkit-clip-path: inset(27.2477596104% 2.2056593499% 9.9466990682%);
+            clip-path: inset(27.2477596104% 2.2056593499% 9.9466990682%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  6% {
+    -webkit-clip-path: inset(36.1657788339% 3.9238795297% 11.3188961634%);
+            clip-path: inset(36.1657788339% 3.9238795297% 11.3188961634%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  7.5% {
+    -webkit-clip-path: inset(16.7593246873% 5.0573593803% 3.2447325167%);
+            clip-path: inset(16.7593246873% 5.0573593803% 3.2447325167%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  9% {
+    -webkit-clip-path: inset(7.018811512% 4.6960455162% 7.1354295568%);
+            clip-path: inset(7.018811512% 4.6960455162% 7.1354295568%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  10.5% {
+    -webkit-clip-path: inset(12.0978546821% 5.7185810483% 10.7425872181%);
+            clip-path: inset(12.0978546821% 5.7185810483% 10.7425872181%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  12% {
+    -webkit-clip-path: inset(10.0158891083% 5.9756288367% 10.7700469083%);
+            clip-path: inset(10.0158891083% 5.9756288367% 10.7700469083%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  13.5% {
+    -webkit-clip-path: inset(23.0694600605% 9.8635267326% 17.4203520154%);
+            clip-path: inset(23.0694600605% 9.8635267326% 17.4203520154%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  15% {
+    -webkit-clip-path: inset(24.1371266697% 3.6267291072% 3.8976643919%);
+            clip-path: inset(24.1371266697% 3.6267291072% 3.8976643919%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  16.5% {
+    -webkit-clip-path: inset(5.6695044679% 4.0137604712% 2.327251934%);
+            clip-path: inset(5.6695044679% 4.0137604712% 2.327251934%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  18% {
+    -webkit-clip-path: inset(17.4620242291% 2.1261405178% 6.2056147419%);
+            clip-path: inset(17.4620242291% 2.1261405178% 6.2056147419%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  19.5% {
+    -webkit-clip-path: inset(5.3154987881% 6.2990998987% 13.2735013195%);
+            clip-path: inset(5.3154987881% 6.2990998987% 13.2735013195%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  21% {
+    -webkit-clip-path: inset(19.2355469448% 7.0893088943% 12.5102719144%);
+            clip-path: inset(19.2355469448% 7.0893088943% 12.5102719144%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  22.5% {
+    -webkit-clip-path: inset(30.6040706922% 2.3376042517% 8.2877001751%);
+            clip-path: inset(30.6040706922% 2.3376042517% 8.2877001751%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  24% {
+    -webkit-clip-path: inset(32.0220680092% 1.1054044543% 17.2670526558%);
+            clip-path: inset(32.0220680092% 1.1054044543% 17.2670526558%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  25.5% {
+    -webkit-clip-path: inset(33.4591495924% 4.7539228109% 2.7534581748%);
+            clip-path: inset(33.4591495924% 4.7539228109% 2.7534581748%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  27% {
+    -webkit-clip-path: inset(7.5571196278% 2.1677727043% 1.5161661251%);
+            clip-path: inset(7.5571196278% 2.1677727043% 1.5161661251%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  28.5% {
+    -webkit-clip-path: inset(23.1121862964% 6.9851217758% 18.3560015755%);
+            clip-path: inset(23.1121862964% 6.9851217758% 18.3560015755%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
 }
 .glitch3 .glitch-text::after {
   left: -3px;
+  -webkit-animation: test-anime1 3s linear infinite;
+          animation: test-anime1 3s linear infinite;
   text-shadow: -2px 0 blue;
-  animation: glitch-2 2s linear infinite reverse;
+}
+@-webkit-keyframes test-anime1 {
+  0% {
+    -webkit-clip-path: inset(14.5917533671% 2.1107377936% 49.2978227486%);
+            clip-path: inset(14.5917533671% 2.1107377936% 49.2978227486%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  1.5% {
+    -webkit-clip-path: inset(27.2651642157% 1.8065793006% 43.5120247724%);
+            clip-path: inset(27.2651642157% 1.8065793006% 43.5120247724%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  3% {
+    -webkit-clip-path: inset(12.6938880598% 1.0422718596% 37.0579788973%);
+            clip-path: inset(12.6938880598% 1.0422718596% 37.0579788973%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  4.5% {
+    -webkit-clip-path: inset(17.5665702194% 1.2602811058% 15.6470881387%);
+            clip-path: inset(17.5665702194% 1.2602811058% 15.6470881387%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  6% {
+    -webkit-clip-path: inset(26.9029051076% 1.2783319947% 45.6597400008%);
+            clip-path: inset(26.9029051076% 1.2783319947% 45.6597400008%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  7.5% {
+    -webkit-clip-path: inset(11.4001843441% 1.0709508056% 34.1924684752%);
+            clip-path: inset(11.4001843441% 1.0709508056% 34.1924684752%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  9% {
+    -webkit-clip-path: inset(1.7803314081% 3.8854989712% 15.6476208651%);
+            clip-path: inset(1.7803314081% 3.8854989712% 15.6476208651%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  10.5% {
+    -webkit-clip-path: inset(22.157134962% 1.4779150961% 45.6717072858%);
+            clip-path: inset(22.157134962% 1.4779150961% 45.6717072858%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  12% {
+    -webkit-clip-path: inset(5.915777996% 4.2761328966% 19.3788225366%);
+            clip-path: inset(5.915777996% 4.2761328966% 19.3788225366%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  13.5% {
+    -webkit-clip-path: inset(41.6319836975% 1.4175138124% 7.8528037434%);
+            clip-path: inset(41.6319836975% 1.4175138124% 7.8528037434%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  15% {
+    -webkit-clip-path: inset(31.106849365% 4.7678749158% 2.1941716488%);
+            clip-path: inset(31.106849365% 4.7678749158% 2.1941716488%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  16.5% {
+    -webkit-clip-path: inset(15.1800192816% 1.456645518% 17.941070507%);
+            clip-path: inset(15.1800192816% 1.456645518% 17.941070507%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  18% {
+    -webkit-clip-path: inset(25.4633357751% 3.7809138122% 11.8611793853%);
+            clip-path: inset(25.4633357751% 3.7809138122% 11.8611793853%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  19.5% {
+    -webkit-clip-path: inset(42.173456199% 3.2732782135% 35.8042476685%);
+            clip-path: inset(42.173456199% 3.2732782135% 35.8042476685%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  21% {
+    -webkit-clip-path: inset(7.9364671841% 3.9461495969% 10.9430784033%);
+            clip-path: inset(7.9364671841% 3.9461495969% 10.9430784033%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  22.5% {
+    -webkit-clip-path: inset(13.5225109391% 2.1820286217% 36.7604053772%);
+            clip-path: inset(13.5225109391% 2.1820286217% 36.7604053772%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  24% {
+    -webkit-clip-path: inset(45.8873013673% 1.920448448% 31.212760648%);
+            clip-path: inset(45.8873013673% 1.920448448% 31.212760648%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  25.5% {
+    -webkit-clip-path: inset(48.8433810639% 2.843706567% 20.540474366%);
+            clip-path: inset(48.8433810639% 2.843706567% 20.540474366%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  27% {
+    -webkit-clip-path: inset(15.5937766247% 2.718602873% 16.7096494005%);
+            clip-path: inset(15.5937766247% 2.718602873% 16.7096494005%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  28.5% {
+    -webkit-clip-path: inset(18.5302516497% 4.333121393% 37.1368115585%);
+            clip-path: inset(18.5302516497% 4.333121393% 37.1368115585%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+}
+@keyframes test-anime1 {
+  0% {
+    -webkit-clip-path: inset(14.5917533671% 2.1107377936% 49.2978227486%);
+            clip-path: inset(14.5917533671% 2.1107377936% 49.2978227486%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  1.5% {
+    -webkit-clip-path: inset(27.2651642157% 1.8065793006% 43.5120247724%);
+            clip-path: inset(27.2651642157% 1.8065793006% 43.5120247724%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  3% {
+    -webkit-clip-path: inset(12.6938880598% 1.0422718596% 37.0579788973%);
+            clip-path: inset(12.6938880598% 1.0422718596% 37.0579788973%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  4.5% {
+    -webkit-clip-path: inset(17.5665702194% 1.2602811058% 15.6470881387%);
+            clip-path: inset(17.5665702194% 1.2602811058% 15.6470881387%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  6% {
+    -webkit-clip-path: inset(26.9029051076% 1.2783319947% 45.6597400008%);
+            clip-path: inset(26.9029051076% 1.2783319947% 45.6597400008%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  7.5% {
+    -webkit-clip-path: inset(11.4001843441% 1.0709508056% 34.1924684752%);
+            clip-path: inset(11.4001843441% 1.0709508056% 34.1924684752%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  9% {
+    -webkit-clip-path: inset(1.7803314081% 3.8854989712% 15.6476208651%);
+            clip-path: inset(1.7803314081% 3.8854989712% 15.6476208651%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  10.5% {
+    -webkit-clip-path: inset(22.157134962% 1.4779150961% 45.6717072858%);
+            clip-path: inset(22.157134962% 1.4779150961% 45.6717072858%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  12% {
+    -webkit-clip-path: inset(5.915777996% 4.2761328966% 19.3788225366%);
+            clip-path: inset(5.915777996% 4.2761328966% 19.3788225366%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  13.5% {
+    -webkit-clip-path: inset(41.6319836975% 1.4175138124% 7.8528037434%);
+            clip-path: inset(41.6319836975% 1.4175138124% 7.8528037434%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  15% {
+    -webkit-clip-path: inset(31.106849365% 4.7678749158% 2.1941716488%);
+            clip-path: inset(31.106849365% 4.7678749158% 2.1941716488%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  16.5% {
+    -webkit-clip-path: inset(15.1800192816% 1.456645518% 17.941070507%);
+            clip-path: inset(15.1800192816% 1.456645518% 17.941070507%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  18% {
+    -webkit-clip-path: inset(25.4633357751% 3.7809138122% 11.8611793853%);
+            clip-path: inset(25.4633357751% 3.7809138122% 11.8611793853%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  19.5% {
+    -webkit-clip-path: inset(42.173456199% 3.2732782135% 35.8042476685%);
+            clip-path: inset(42.173456199% 3.2732782135% 35.8042476685%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  21% {
+    -webkit-clip-path: inset(7.9364671841% 3.9461495969% 10.9430784033%);
+            clip-path: inset(7.9364671841% 3.9461495969% 10.9430784033%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  22.5% {
+    -webkit-clip-path: inset(13.5225109391% 2.1820286217% 36.7604053772%);
+            clip-path: inset(13.5225109391% 2.1820286217% 36.7604053772%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  24% {
+    -webkit-clip-path: inset(45.8873013673% 1.920448448% 31.212760648%);
+            clip-path: inset(45.8873013673% 1.920448448% 31.212760648%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  25.5% {
+    -webkit-clip-path: inset(48.8433810639% 2.843706567% 20.540474366%);
+            clip-path: inset(48.8433810639% 2.843706567% 20.540474366%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  27% {
+    -webkit-clip-path: inset(15.5937766247% 2.718602873% 16.7096494005%);
+            clip-path: inset(15.5937766247% 2.718602873% 16.7096494005%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+  28.5% {
+    -webkit-clip-path: inset(18.5302516497% 4.333121393% 37.1368115585%);
+            clip-path: inset(18.5302516497% 4.333121393% 37.1368115585%);
+  }
+  30%, 100% {
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
 }/*# sourceMappingURL=glitch3.css.map */
